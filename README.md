@@ -32,7 +32,7 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. You don't need a
 ## 📜 License & Vision (라이선스 및 비전)
 
 **🇰🇷 Korean**
-누구나 이 아이디어로 새로운 가치를 만들어도 좋습니다. 상업적 이용도 허용합니다. 다만, 이 프로젝트의 최초 아이디어 제안자가 **용문중학교 정영천(Young-cheon Jeong)**임을 명시해 주시기 바랍니다. (MIT 라이선스 적용)
+누구나 이 아이디어로 새로운 가치를 만들어도 좋습니다. 상업적 이용도 허용합니다. 다만, 이 프로젝트의 최초 아이디어 제안자가 **용문중학교 정영천(Young-chun Jung)**임을 명시해 주시기 바랍니다. (MIT 라이선스 적용)
 
 **🇺🇸 English**
-Anyone is free to create new value with this idea. Commercial use is fully permitted. However, we simply request that you credit the original creator of this project as **Young-cheon Jeong (Yongmun Middle School)**. (Licensed under MIT)
+Anyone is free to create new value with this idea. Commercial use is fully permitted. However, we simply request that you credit the original creator of this project as **Young-chun Jung (Yongmoon Middle School)**. (Licensed under MIT)
