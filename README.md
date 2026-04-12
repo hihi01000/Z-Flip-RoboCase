@@ -22,7 +22,9 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. You don't need a
 * 🇰🇷 이 영상은 최종 완성본이 아닌, 위의 제어 사이트를 통해 **Z 플립의 외부 화면이 성공적으로 작동하는 모습을 담은 초기 데모(v1)**입니다.
 * 🇺🇸 This is an **initial demo (v1)** showing the successful operation of the Z Flip's cover screen using the control website above, not the final completed robot.
 
-👉 **[초기 버전 작동 영상 보기 (Watch v1 Demo on YouTube Shorts)](https://www.youtube.com/shorts/8tVqE9OLXx8)**
+*(👇 아래 이미지를 클릭하면 영상이 재생됩니다 / Click the image below to watch the video)*
+
+[![초기 버전 데모 영상](https://img.youtube.com/vi/8tVqE9OLXx8/0.jpg)](https://www.youtube.com/shorts/8tVqE9OLXx8)
 
 ---
 
