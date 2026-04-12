@@ -4,27 +4,33 @@
 이 프로젝트는 갤럭시 Z 플립의 독특한 폼팩터(약 80도 이상의 폴딩)를 활용한 **오픈소스 로봇 케이스**입니다. 3D 프린터 없이 기존 스마트폰 케이스에 마이크로비트와 360도 서보모터를 결합하여 스마트폰을 로봇으로 변신시킵니다. 별도의 앱 설치 없이 웹 브라우저(Web Bluetooth)만으로 인공지능 제어가 가능합니다.
 
 ### 🇺🇸 Project Introduction
-An **Open-Source Robotic Case** designed for the Galaxy Z Flip. You don't need a 3D printer; it utilizes an existing smartphone case combined with a Micro:bit and 360-degree servo motors. It features AI-driven control via Web Bluetooth without any app installation.
+An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a smartphone into a robot using Micro:bit and 360-degree servo motors on an existing case. It features AI-driven control via Web Bluetooth without any app installation.
 
 ---
 
-## 🔗 Control System & Demo (제어 시스템 및 작동 영상)
+## 🔗 Control System & Demos (제어 시스템 및 작동 영상)
 
-**1. Control Website (제어 사이트 - v1)**
-👉 [https://magenta-scone-05a35c.netlify.app](https://magenta-scone-05a35c.netlify.app)
-
+### 1. 외부 화면 및 AI 인터페이스 데모 (v1 - Cover Screen & AI Face Demo)
+👉 **[제어 사이트 (Control Website)](https://magenta-scone-05a35c.netlify.app)**
 * **Mouse/Touch Interaction:** * 🇰🇷 눈동자가 커서나 손가락을 따라다니며, 클릭 시 랜덤하게 8가지 표정(평상시, 행복함, 화남, 슬픔, 호기심, 놀람, 졸림, 사랑)으로 변합니다.
-  * 🇺🇸 Eyes follow the cursor/finger. Clicking triggers 8 random expressions (Normal, Happy, Angry, Sad, Curious, Surprised, Sleepy, Love).
-* **AI Finger Tracking:** * 🇰🇷 '손가락 추적 켜기'를 통해 카메라가 켜지면 검지손가락을 따라다니고, 검지와 엄지를 붙였다 떼면 표정이 바뀝니다. (노트북/스마트폰 모두 지원)
-  * 🇺🇸 Enable 'Finger Tracking' to follow your index finger using the camera. Pinching (bringing thumb and index finger together) changes the expression. (Supports both laptops and smartphones)
-
-**2. Initial Demo Video (초기 버전 작동 영상)**
-* 🇰🇷 이 영상은 최종 완성본이 아닌, 위의 제어 사이트를 통해 **Z 플립의 외부 화면이 성공적으로 작동하는 모습을 담은 초기 데모(v1)**입니다.
-* 🇺🇸 This is an **initial demo (v1)** showing the successful operation of the Z Flip's cover screen using the control website above, not the final completed robot.
-
+  * 🇺🇸 Eyes follow the cursor/finger. Clicking triggers 8 random expressions.
+* **AI Finger Tracking:** * 🇰🇷 '손가락 추적 켜기'를 통해 카메라가 켜지면 검지손가락을 따라다니고, 검지와 엄지를 붙였다 떼면 표정이 바뀝니다.
+  * 🇺🇸 Enable 'Finger Tracking' to follow your index finger using the camera. Pinching changes the expression.
+* 🇰🇷 최종 로봇 조립 전, Z 플립의 외부 화면이 제어 사이트와 성공적으로 연동되는 모습을 담은 초기 데모입니다.
 *(👇 아래 이미지를 클릭하면 영상이 재생됩니다 / Click the image below to watch the video)*
 
 [![초기 버전 데모 영상](https://img.youtube.com/vi/8tVqE9OLXx8/0.jpg)](https://www.youtube.com/shorts/8tVqE9OLXx8)
+
+
+### 2. 웹 블루투스 모터 제어 데모 (v2 - Web Bluetooth Motor Control Test)
+👉 **[테스트 사이트 (Test Website - CodePen)](https://codepen.io/nwockltm-the-encoder/full/QwyQLOG)**
+👉 **[마이크로비트 소스 코드 (Micro:bit Source Code)](https://makecode.microbit.org/S11292-29001-99587-59826)**
+
+* 🇰🇷 다른 스마트폰으로 웹사이트에 접속하여, Z 플립의 전원을 사용하는 마이크로비트와 웹 블루투스로 무선 연결한 뒤 서보모터를 작동시키는 테스트입니다. 모터 구동을 위해 위 링크의 마이크로비트 코드를 업로드해야 합니다.
+* 🇺🇸 This test verifies Web Bluetooth functionality. Using another smartphone, we accessed the web browser and connected to the Micro:bit. You need to upload the Micro:bit code provided above to operate the motors.
+*(👇 아래 이미지를 클릭하면 영상이 재생됩니다 / Click the image below to watch the video)*
+
+[![웹 블루투스 제어 데모 영상](https://img.youtube.com/vi/Pqm7mCUuU8g/0.jpg)](https://www.youtube.com/shorts/Pqm7mCUuU8g)
 
 ---
 
