@@ -8,6 +8,18 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. You don't need a
 
 ---
 
+## 🔗 Control Website (제어 사이트)
+
+**[Interactive AI Face & Control Center]**
+👉 [https://magenta-scone-05a35c.netlify.app](https://magenta-scone-05a35c.netlify.app)
+
+* **Mouse/Touch Interaction:** * 🇰🇷 눈동자가 커서나 손가락을 따라다니며, 클릭 시 랜덤하게 8가지 표정(평상시, 행복함, 화남, 슬픔, 호기심, 놀람, 졸림, 사랑)으로 변합니다.
+  * 🇺🇸 Eyes follow the cursor/finger. Clicking triggers 8 random expressions (Normal, Happy, Angry, Sad, Curious, Surprised, Sleepy, Love).
+* **AI Finger Tracking:** * 🇰🇷 '손가락 추적 켜기'를 통해 카메라가 켜지면 검지손가락을 따라다니고, 검지와 엄지를 붙였다 떼면 표정이 바뀝니다. (노트북/스마트폰 모두 지원)
+  * 🇺🇸 Enable 'Finger Tracking' to follow your index finger using the camera. Pinching (bringing thumb and index finger together) changes the expression. (Supports both laptops and smartphones)
+
+---
+
 ## ✨ Key Features (주요 특징)
 
 * **80°+ Folding Interface:** 내부 디스플레이가 켜지지 않는 최적의 각도(약 80도 이상)로 세워, 외부 디스플레이를 로봇의 얼굴로 온전히 활용합니다.
