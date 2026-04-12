@@ -1,10 +1,10 @@
 # Z-Flip-RoboCase: AI-Powered Robotic Case for Galaxy Z Flip
 
 ### 🇰🇷 프로젝트 소개
-이 프로젝트는 갤럭시 Z 플립의 독특한 폼팩터(약 80도 이상의 폴딩)를 활용한 **오픈소스 로봇 케이스**입니다. 마이크로비트와 360도 서보모터를 결합하여 스마트폰을 로봇으로 변신시키며, 별도의 앱 설치 없이 웹 브라우저(Web Bluetooth)만으로 인공지능 제어가 가능합니다.
+이 프로젝트는 갤럭시 Z 플립의 독특한 폼팩터(약 80도 이상의 폴딩)를 활용한 **오픈소스 로봇 케이스**입니다. 3D 프린터 없이 기존 스마트폰 케이스에 마이크로비트와 360도 서보모터를 결합하여 스마트폰을 로봇으로 변신시킵니다. 별도의 앱 설치 없이 웹 브라우저(Web Bluetooth)만으로 인공지능 제어가 가능합니다.
 
 ### 🇺🇸 Project Introduction
-An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a smartphone into a robot using Micro:bit and 360-degree servo motors. It features AI-driven control via Web Bluetooth without any app installation.
+An **Open-Source Robotic Case** designed for the Galaxy Z Flip. You don't need a 3D printer; it utilizes an existing smartphone case combined with a Micro:bit and 360-degree servo motors. It features AI-driven control via Web Bluetooth without any app installation.
 
 ---
 
@@ -14,14 +14,18 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 * **Web Bluetooth Control:** 웹 브라우저에서 마이크로비트를 직접 제어합니다.
 * **AI Interaction:** 카메라 인식을 통해 손가락, 얼굴, 음성으로 로봇을 움직입니다.
 * **Smartphone-Powered:** 갤럭시 Z 플립의 전원을 직접 사용하여 배터리가 필요 없습니다.
+* **High Accessibility:** 3D 프린팅 없이 기성품 케이스와 범용 부품만으로 제작이 가능합니다.
 
 ---
 
 ## 🛠 Hardware (준비물)
-* Samsung Galaxy Z Flip Series
-* BBC Micro:bit v2
-* 360-degree Servo Motors (x2): **[ELECFREAKS] EF90D 360-degree Digital Servo for Micro:bit [EF09081]** (마이크로비트용 EF90D 360도 디지털 서보모터)
-* 3D Printed Case (STL file included in this repo)
+
+* **Smartphone & Case:** Samsung Galaxy Z Flip Series 및 일반 스마트폰 케이스 (Existing smartphone case)
+* **Controller:** BBC Micro:bit v2
+* **Actuator:** 360-degree Servo Motors (x2): **[ELECFREAKS] EF90D 360-degree Digital Servo for Micro:bit [EF09081]**
+* **Mobility:** 볼 캐스터 (Ball Caster)
+* **Expansion Board (마이크로비트 확장 보드):** * 🇰🇷 Z 플립에서 직접 전원을 공급받으므로, **별도의 외부 전원이 필요 없는 확장 보드라면 어떤 제품이든 무방합니다.**
+  * 🇺🇸 Any Micro:bit expansion board that does not require an external power supply can be used.
 
 ---
 
