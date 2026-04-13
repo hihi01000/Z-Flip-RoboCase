@@ -21,10 +21,12 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 👉 **[제어 사이트 (Control Website)](https://magenta-scone-05a35c.netlify.app)**
 
 * **Mouse/Touch Interaction:** * 🇰🇷 눈동자가 커서나 손가락을 따라다니며, 클릭 시 랜덤하게 8가지 표정(평상시, 행복함, 화남, 슬픔, 호기심, 놀람, 졸림, 사랑)으로 변합니다.
-  * 🇺🇸 Eyes follow the cursor/finger. Clicking triggers 8 random expressions.
+  * 🇺🇸 Eyes follow the cursor/finger. Clicking triggers 8 random expressions (normal, happy, angry, sad, curious, surprised, sleepy, love).
 * **AI Finger Tracking:** * 🇰🇷 '손가락 추적 켜기'를 통해 카메라가 켜지면 검지손가락을 따라다니고, 검지와 엄지를 붙였다 떼면 표정이 바뀝니다.
   * 🇺🇸 Enable 'Finger Tracking' to follow your index finger using the camera. Pinching changes the expression.
-* 🇰🇷 최종 로봇 조립 전, Z 플립의 외부 화면이 제어 사이트와 성공적으로 연동되는 모습을 담은 초기 데모입니다.
+* **Early Demo:**
+  * 🇰🇷 최종 로봇 조립 전, Z 플립의 외부 화면이 제어 사이트와 성공적으로 연동되는 모습을 담은 초기 데모입니다.
+  * 🇺🇸 This is an early demo showing the successful integration of the Z Flip's cover screen with the control website before the final robot assembly.
 
 *(👇 아래 이미지를 클릭하면 영상이 재생됩니다 / Click the image below to watch the video)*
 
@@ -46,26 +48,35 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 
 ## ✨ Key Features (주요 특징)
 
-* **80°+ Folding Interface:** 내부 디스플레이가 켜지지 않는 최적의 각도(약 80도 이상)로 세워, 외부 디스플레이를 로봇의 얼굴로 온전히 활용합니다.
-* **Web Bluetooth Control:** 웹 브라우저에서 마이크로비트를 직접 제어합니다.
-* **AI Interaction:** 카메라 인식을 통해 손가락, 얼굴, 음성으로 로봇을 움직입니다.
-* **Smartphone-Powered:** 갤럭시 Z 플립의 전원을 직접 사용하여 배터리가 필요 없습니다.
-* **High Accessibility:** 3D 프린팅 없이 기성품 케이스와 범용 부품만으로 제작이 가능합니다.
+* **80°+ Folding Interface:** * 🇰🇷 내부 디스플레이가 켜지지 않는 최적의 각도(약 80도 이상)로 세워, 외부 디스플레이를 로봇의 얼굴로 온전히 활용합니다.
+  * 🇺🇸 Set at an optimal angle (over 80 degrees) where the inner display remains off, fully utilizing the cover screen as the robot's face.
+* **Web Bluetooth Control:** * 🇰🇷 웹 브라우저에서 마이크로비트를 직접 제어합니다.
+  * 🇺🇸 Directly controls the Micro:bit via the web browser.
+* **AI Interaction:** * 🇰🇷 카메라 인식을 통해 손가락, 얼굴, 음성으로 로봇을 움직입니다.
+  * 🇺🇸 Moves the robot using camera recognition for finger, face, and voice tracking.
+* **Smartphone-Powered:** * 🇰🇷 갤럭시 Z 플립의 전원을 직접 사용하여 배터리가 필요 없습니다.
+  * 🇺🇸 Directly powered by the Galaxy Z Flip, requiring no external batteries.
+* **High Accessibility:** * 🇰🇷 3D 프린팅 없이 기성품 케이스와 범용 부품만으로 제작이 가능합니다.
+  * 🇺🇸 Can be built without 3D printing, using only an off-the-shelf smartphone case and standard components.
 
 ---
 
 ## 🛠 Hardware (준비물)
 
-* **Smartphone & Case:** Samsung Galaxy Z Flip Series 및 일반 스마트폰 케이스 (Existing smartphone case)
-* **Controller:** BBC Micro:bit v2
-* **Actuator:** 360-degree Servo Motors (x2): **[ELECFREAKS] EF90D 360-degree Digital Servo for Micro:bit [EF09081]**
-* **Mobility:** 볼 캐스터 (Ball Caster)
-* **Expansion Board (마이크로비트 확장 보드):** * 🇰🇷 Z 플립에서 직접 전원을 공급받으므로, **별도의 외부 전원이 필요 없는 확장 보드라면 어떤 제품이든 무방합니다.**
+* **Smartphone & Case:** * 🇰🇷 삼성 갤럭시 Z 플립 시리즈 및 일반 스마트폰 케이스
+  * 🇺🇸 Samsung Galaxy Z Flip Series and an existing standard smartphone case
+* **Controller:** * 🇰🇷 BBC 마이크로비트 v2
+  * 🇺🇸 BBC Micro:bit v2
+* **Actuator:** * 🇰🇷 360도 서보모터 (x2): **[ELECFREAKS] 마이크로비트용 EF90D 360도 디지털 서보모터 [EF09081]**
+  * 🇺🇸 360-degree Servo Motors (x2): **[ELECFREAKS] EF90D 360-degree Digital Servo for Micro:bit [EF09081]**
+* **Mobility:** * 🇰🇷 볼 캐스터
+  * 🇺🇸 Ball Caster
+* **Expansion Board:** * 🇰🇷 Z 플립에서 직접 전원을 공급받으므로, **별도의 외부 전원이 필요 없는 확장 보드라면 어떤 제품이든 무방합니다.**
   * 🇺🇸 Any Micro:bit expansion board that does not require an external power supply can be used.
 
 ---
 
-## 📜 License & Vision (라이선스 및 비전)
+## 📜 License (라이선스)
 
 **🇰🇷 Korean**
 누구나 이 아이디어로 새로운 가치를 만들어도 좋습니다. 상업적 이용도 허용합니다. 다만, 이 프로젝트의 최초 아이디어 제안자가 **용문중학교 정영천(Young-chun Jung)**임을 명시해 주시기 바랍니다. (MIT 라이선스 적용)
