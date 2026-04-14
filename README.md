@@ -4,13 +4,13 @@
 
 ![Z-Flip-RoboCase 한글 소개 만화](images/comic_ko.png)
 
-이 프로젝트는 갤럭시 Z 플립의 독특한 폼팩터(약 80도 이상의 폴딩)를 활용한 **오픈소스 로봇 케이스**입니다. 3D 프린터 없이 기존 스마트폰 케이스에 마이크로비트와 360도 서보모터를 결합하여 스마트폰을 로봇으로 변신시킵니다. 별도의 앱 설치 없이 웹 브라우저(Web Bluetooth)만으로 인공지능 제어가 가능합니다.
+이 프로젝트는 갤럭시 Z 플립의 독특한 폼팩터(약 80도 이상의 폴딩)를 활용한 **오픈소스 로봇 케이스**입니다. 3D 프린터 없이 기존 스마트폰 케이스에 마이크로비트와 360도 서보모터를 결합하여 스마트폰을 로봇으로 변신시킵니다. 별도의 앱 설치 없이 웹 브라우저(Web Bluetooth 및 Web Speech API)만으로 완벽한 인공지능 제어가 가능합니다.
 
 ### 🇺🇸 Project Introduction
 
 ![Z-Flip-RoboCase English Introduction Comic](images/comic_en.png)
 
-An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a smartphone into a robot using Micro:bit and 360-degree servo motors on an existing case. It features AI-driven control via Web Bluetooth without any app installation.
+An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a smartphone into a robot using Micro:bit and 360-degree servo motors on an existing case. It features AI-driven control via Web Bluetooth and Voice Recognition without any app installation.
 
 ---
 
@@ -35,7 +35,7 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 ### 2. 웹 블루투스 모터 제어 데모 (v2 - Web Bluetooth Motor Control Test)
 
 👉 **[테스트 사이트 (Test Website - CodePen)](https://codepen.io/nwockltm-the-encoder/full/QwyQLOG)**
-👉 **[마이크로비트 소스 코드 (Micro:bit Source Code)](https://makecode.microbit.org/S11292-29001-99587-59826)**
+👉 **[v2 마이크로비트 소스 코드 (v2 Micro:bit Source Code)](https://makecode.microbit.org/S11292-29001-99587-59826)**
 
 * 🇰🇷 다른 스마트폰으로 웹사이트에 접속하여, Z 플립의 전원을 사용하는 마이크로비트와 웹 블루투스로 무선 연결한 뒤 서보모터를 작동시키는 테스트입니다. 모터 구동을 위해 위 링크의 마이크로비트 코드를 업로드해야 합니다.
 * 🇺🇸 This test verifies Web Bluetooth functionality. Using another smartphone, we accessed the web browser and connected to the Micro:bit. You need to upload the Micro:bit code provided above to operate the motors.
@@ -44,16 +44,30 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 
 [![웹 블루투스 제어 데모 영상](https://img.youtube.com/vi/Pqm7mCUuU8g/0.jpg)](https://www.youtube.com/shorts/Pqm7mCUuU8g)
 
+### 3. 음성 인식 및 통합 제어 데모 (v3 - Voice Recognition & Integrated Control) 🌟 NEW 🌟
+
+👉 **[통합 제어 사이트 (Integrated Control Website - CodePen)](https://codepen.io/ibuthhgr-the-bold/full/KwgbzMX)**
+👉 **[v3 마이크로비트 소스 코드 (v3 Micro:bit Source Code)](https://makecode.microbit.org/S13381-11226-19107-89407)**
+
+* **Voice Commands (음성 명령어):** * 🇰🇷 마이크로폰을 통해 음성 명령을 내리면 로봇이 그에 맞는 표정을 지으며 움직입니다. (예: "이리와" → 다가오며 행복한 표정, "저리가" → 멀어지며 슬픈 표정, "멈춰", "갤럭시", "아이폰" 등)
+  * 🇺🇸 Voice commands (in Korean) trigger specific emotions and physical movements (e.g., "Come here" = approaches with a happy face, "Go away" = retreats with a sad face).
+* **All-in-One Integration (통합 제어):** * 🇰🇷 손가락 추적(AI Vision), 다채로운 표정 애니메이션, 그리고 웹 블루투스 기반의 모터 제어와 음성 인식이 하나의 웹 페이지로 완벽하게 통합되었습니다.
+  * 🇺🇸 Finger tracking, expressive animations, Web Bluetooth motor control, and voice recognition are now fully integrated into a single web application.
+
+*(👇 아래 이미지를 클릭하면 영상이 재생됩니다 / Click the image below to watch the video)*
+
+[![음성 인식 제어 데모 영상](https://img.youtube.com/vi/L9bRI8M1AsY/0.jpg)](https://www.youtube.com/shorts/L9bRI8M1AsY)
+
 ---
 
 ## ✨ Key Features (주요 특징)
 
 * **80°+ Folding Interface:** * 🇰🇷 내부 디스플레이가 켜지지 않는 최적의 각도(약 80도 이상)로 세워, 외부 디스플레이를 로봇의 얼굴로 온전히 활용합니다.
   * 🇺🇸 Set at an optimal angle (over 80 degrees) where the inner display remains off, fully utilizing the cover screen as the robot's face.
-* **Web Bluetooth Control:** * 🇰🇷 웹 브라우저에서 마이크로비트를 직접 제어합니다.
-  * 🇺🇸 Directly controls the Micro:bit via the web browser.
-* **AI Interaction:** * 🇰🇷 카메라 인식을 통해 손가락, 얼굴, 음성으로 로봇을 움직입니다.
-  * 🇺🇸 Moves the robot using camera recognition for finger, face, and voice tracking.
+* **Web Bluetooth & Speech Control:** * 🇰🇷 웹 브라우저만으로 마이크로비트를 제어하고, 음성 인식을 통해 명령을 내립니다.
+  * 🇺🇸 Directly controls the Micro:bit and processes voice commands entirely via the web browser.
+* **AI Interaction:** * 🇰🇷 카메라 인식을 통한 손가락/얼굴 추적은 물론, 음성 명령의 맥락을 파악해 표정과 행동을 스스로 결정합니다.
+  * 🇺🇸 Features camera-based finger/face tracking and context-aware voice commands that combine physical movement with emotional expressions.
 * **Smartphone-Powered:** * 🇰🇷 갤럭시 Z 플립의 전원을 직접 사용하여 배터리가 필요 없습니다.
   * 🇺🇸 Directly powered by the Galaxy Z Flip, requiring no external batteries.
 * **High Accessibility:** * 🇰🇷 3D 프린팅 없이 기성품 케이스와 범용 부품만으로 제작이 가능합니다.
@@ -76,10 +90,12 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 
 ---
 
-## 📜 License (라이선스)
+## 📜 License & Contact (라이선스 및 제작자)
 
 **🇰🇷 Korean**
 누구나 이 아이디어로 새로운 가치를 만들어도 좋습니다. 상업적 이용도 허용합니다. 다만, 이 프로젝트의 최초 아이디어 제안자가 **용문중학교 정영천(Young-chun Jung)**임을 명시해 주시기 바랍니다. (MIT 라이선스 적용)
+* 📺 **YouTube:** [https://www.youtube.com/@01000a](https://www.youtube.com/@01000a)
 
 **🇺🇸 English**
 Anyone is free to create new value with this idea. Commercial use is fully permitted. However, we simply request that you credit the original creator of this project as **Young-chun Jung (Yongmoon Middle School)**. (Licensed under MIT)
+* 📺 **YouTube:** [https://www.youtube.com/@01000a](https://www.youtube.com/@01000a)
