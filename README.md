@@ -77,6 +77,8 @@ An **Open-Source Robotic Case** designed for the Galaxy Z Flip. It transforms a 
 
 ## 🛠 Hardware (준비물)
 
+👉 **[재료 구매 링크 (Material Purchase List)](https://docs.google.com/spreadsheets/d/1Vz7NGr4qowOHJ9B8qPgDqc7Fm2NCQdsf_LFd3KuQ3c4/edit?usp=sharing)**
+
 * **Smartphone & Case:** * 🇰🇷 삼성 갤럭시 Z 플립 시리즈 및 일반 스마트폰 케이스
   * 🇺🇸 Samsung Galaxy Z Flip Series and an existing standard smartphone case
 * **Controller:** * 🇰🇷 BBC 마이크로비트 v2
